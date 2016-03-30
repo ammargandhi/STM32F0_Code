@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F030R8T6 -DSTM32F030X8 -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\PWM_Test\stm32_lib\inc -I..\..\..\workspace\PWM_Test\cmsis_core -I..\..\..\workspace\PWM_Test -I..\..\..\workspace -I..\..\..\workspace\PWM_Test\cmsis_boot -I..\..\..\workspace\PWM_Test\stm32_lib">
+      <target file="stm32f0xx_gpio.o" lastModified="150189f4700">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="15015407c40"/>
+      </target>
+      <target file="stm32f0xx_tim.o" lastModified="150189f48a3">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_tim.c" lastModified="15015408c73"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="150189f4517">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="15015407b1f"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="150189f465a">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="15015407b75"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="150189f45c1">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="15015407b47"/>
+      </target>
+      <target file="main.o" lastModified="150189f45ab">
+         <source file="..\..\..\main.c" lastModified="150189f40dc"/>
+      </target>
+   </processor>
+</history>
