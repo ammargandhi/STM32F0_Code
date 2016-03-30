@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=Project2.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Project2 -TC:\CooCox\CoIDE\configuration\ProgramData\Project2/arm-gcc-link.ld -g">
+      <target file="Project2.elf" lastModified="15034b3948b">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="15034ab513a"/>
+         <source file="..\obj\main.o" lastModified="15034b39264"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="15034ab51cd"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="15034ab522e"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="15034ab52a6"/>
+         <source file="..\obj\stm32f0xx_usart.o" lastModified="15034ab5356"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="15034ab5497"/>
+      </target>
+   </processor>
+</history>
